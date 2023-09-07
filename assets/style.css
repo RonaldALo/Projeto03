@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&family=Open+Sans:wght@400;700&display=swap');
+
+:root{
+
+    --font-Mulish: 'Mulish', sans-serif;
+    --font-Sans: 'Open Sans', sans-serif;
+}
+html{
+    font-size: 62.5%;
+}
+
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    min-height: 100vh;
+    background: linear-gradient(180deg, rgba(227, 255, 248, 0.00) 82.08%, rgba(227, 255, 248, 0.38) 100%);
+}
+
+.page{
+    width: 1000px;
+    margin: auto;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 6.5rem;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 4.8rem;
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 1.8rem;
+    font-family: var(--font-Mulish);
+    color: #1F1534;
+    opacity: 0.5;
+}
+nav ul li a:hover{
+    opacity: 1;
+}
+main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3rem;
+}
+main h1{
+    font-size: 4.9rem;
+    font-weight: 400;
+    font-family: var(--font-Mulish);
+    line-height: 5.6rem;
+    width: 490px;
+}
+main h1 span{
+    color: #89C5CC;
+    font-weight: 700;
+}
+main p{
+    color: #7D7987;
+    font-size: 1.4rem;
+    line-height: 2.8rem;
+    font-weight: 400;
+    font-family: var(--font-Sans);
+    width: 43.8rem;
+    margin: 4rem 0;
+}
+main p span{
+    font-weight: 700;
+}
+button{
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+    gap: 1rem;
+    padding: 1.4rem 3.2rem 1.5rem 3.2rem;
+    border: none;
+    border-radius: 0.4rem;
+    background: #69B99D;
+    color: #F9F9F9;
+    font-family: var(--font-Sans);
+}
+button:hover{
+    background: #4c997e;
+    color: #000;
+}
+footer{
+    margin-top: 8.24rem;
+    text-align: center;
+    font-size: 1.4rem;
+    font-family: var(--font-Sans);
+    line-height: 2.8rem;
+}
+footer a{
+    font-weight: 700;
+    text-decoration: none;
+    color: #000;
+}
+.balls{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
